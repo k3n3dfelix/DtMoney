@@ -11,6 +11,6 @@ app.use('/',
             ))
 )
 
-app.listen(proces.env.PORT || 300, (err)=> {
+app.listen(process.env.PORT || 3000, (err)=> {
     if(err) { return console.log(err); }
 })
